@@ -1,0 +1,1165 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+}
+h1,h2,h3,h4,h5,h6{
+  font-family: sans-serif;
+}
+a,a:hover{
+	text-decoration: none;
+}
+/* --------------- global css code start------------------ */
+.container{
+	width: 1140px;
+	margin: 0px auto;
+}
+.row{
+	width: 100%;
+	float: left;
+}
+.col-4{
+	width: 33.33%;
+	float: left;
+}
+.col-6{
+	width: 50%;
+	float: left;
+}
+.col-12{
+	width: 100%;
+	float: left;
+}
+/* --------------- global css code end------------------ */
+/* --------------- header css code start------------------ */
+.header{
+	margin-top: 10px;
+	width: 100%;
+	float: left;
+}
+.menu{
+	width: 100%;
+	float: left;
+	text-align: right;
+}
+.menu li{
+	display: inline-block;
+	list-style: none;
+	margin-top: 10px;
+}
+.menu li a{
+	font-size: 14px;
+	text-transform: capitalize;
+	font-weight: 500;
+	color: #0f2656;
+	margin: 0px 0px 0px 15px;
+	transition: 1s;
+}
+.menu li a:hover{
+	color: #008aff;
+}
+/* --------------- header css code end------------------ */
+/*--------------------------------- home page start --------------------------------*/
+/* --------------- online section-- start------------------ */
+.online-section{
+	width: 100%;
+	float: left;
+	padding: 60px 0px;
+}
+.online-section .home-h1{
+	font-size: 55px;
+	font-weight: 700;
+	line-height: 62px;
+	color: #0f2656;
+	margin-bottom: 10px;
+	text-align: center;
+}
+.online-section h1 span{
+	color: #008aff;
+}
+.online-section .home-p{
+	font-size: 15px;
+	font-weight: 500;
+	line-height: 24px;
+	color: #0f2656;
+	text-align: center;
+}
+.online-section img{
+	display: block;
+	margin: 50px auto;
+}
+/* --------------- online section-- end----------------- */
+/* --------------- success section-- start------------------ */
+.success-section{
+	width: 100%;
+	float: left;
+	padding: 30px 0px 60px 0px;
+}
+.success-section .title{
+	font-size: 55px;
+	font-weight: 700;
+	line-height: 62px;
+	color: #f15767;
+	margin-bottom: 10px;
+	text-align: right;
+	padding-right: 40px;
+}
+.success-section .desc{
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 24px;
+	color: #0f2656;
+	margin-bottom: 10px;
+	padding-right: 40px;
+	text-align: right;
+}
+.success-section .right-title{
+	font-size: 55px;
+	font-weight: 700;
+	line-height: 62px;
+	color: #0f2656;
+	margin-bottom: 10px;
+	padding-right: 20px;
+}
+/* --------------- success section-- end------------------ */
+/* --------------- feature -section--start------------------ */
+.feature-section{
+	width: 100%;
+	float: left;
+	padding: 40px 0px 60px;
+}
+.inner-feature{
+	width: 85%;
+	float: left;
+	margin: 0px 20px 30px 20px;
+	padding: 50px 15px;
+}
+.inner-feature img{
+	width: 100%;
+	height: 180px;
+	margin-bottom: 10px;
+}
+.inner-feature h4{
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 30px;
+	color: #0f2656;
+	margin-bottom: 5px;
+}
+.inner-feature p{
+	font-size: 15px;
+	font-weight: 500;
+	line-height: 24px;
+	color: #0f2656;
+}
+/* --------------- feature section-- end------------------ */
+/*--------------------------------- home page end --------------------------------*/
+
+/* --------------- footer section--start------------------ */
+.footer-section{
+	width: 100%;
+	float: left;
+	padding: 20px 0px;
+	background: #008aff;
+	text-align: center;
+}
+.footer-section p{
+	font-size: 12px;
+	font-weight: 400;
+	color: #9fccff;
+}
+.footer-section p a{
+	text-transform: uppercase;
+	color: #fff;
+	font-weight: 700;
+	letter-spacing: 3px;
+}
+.footer-section p a:hover{
+	color: #0f2656;
+}
+/* --------------- footer section-- end------------------ */
+
+/*------------------------------- overview page start --------------------------------*/
+.online-section .overview-h1{
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 50px;
+	color: #0f2656;
+	margin-bottom: 20px;
+	text-align: left;
+}
+.online-section .overview-h1 span{
+	color: #008aff;
+}
+.online-section .overview-img{ 
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+.online-section .overview-p{
+	font-size: 15px;
+	font-weight: 500;
+	line-height: 24px;
+	color: #0f2656;
+	text-align: left;
+}
+/*--------------------------------- overview page end --------------------------------*/
+
+/*--------------------------------- landing page start --------------------------------*/
+.login-form{
+	width: 40%;
+	margin: 20px auto; 
+	padding: 30px;
+	background: #3EDBF0;
+	border:4px solid #f2511a;
+	border-radius: 9px;
+}
+.login-form .landing-h1{
+	font-size: 30px;
+	font-weight: 550;
+	text-align: center;
+	text-transform: uppercase;
+	line-height: 44px;
+	margin-bottom:0px;
+}
+.avater-img{
+	width: 100%;
+	text-align: center;
+}
+.avater-img img{
+	width: 130px;
+	height: 125px;
+	border: 2px solid #34656D;
+	border-radius: 100%;
+	margin-bottom: 15px;
+	margin-top: 5px;
+	
+}
+.main-form{
+	width: 100%;
+}
+.main-form label{
+	display: block;
+	font-size:16px;
+	font-weight: 600;
+	text-transform: uppercase;
+	margin: 0px 0px 0px;
+}
+.main-form .form-control{
+	width: 96%;
+	padding: 5px;
+	margin: 0px 0px 5px;
+	font-size:13px;
+	color: #000;
+	font-weight: 600;
+	text-transform: uppercase;
+	border: 2px solid #0b757c;
+	background: #fff;
+}
+.main-form .btn{
+	display: block;
+	padding: 10px 30px;
+	font-size:13px;
+	color: #black;
+	font-weight: 600;
+	text-transform: uppercase;
+	border: 2px solid #0b757c;
+	background-color: #f2511a;
+	width:40%;
+  margin:10px auto;
+}
+.main-form input.btn:hover{
+  cursor:pointer;
+  background:#0c66ff;
+  color:#ffff
+}
+/*--------------------------------- landing page end --------------------------------*/
+
+/*--------------------------------- pages start --------------------------------*/
+.online-section .pages-img{ 
+	margin-top:0px;
+	margin-bottom: 40px;
+}
+.pages-h1{
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 50px;
+	color: #0f2656;
+	margin-bottom: 20px;
+	text-align: centre;
+}
+.online-section .pages-h1 span{
+	color: #008aff;
+}
+
+.online-section .pages-p{
+	font-size: 15px;
+	font-weight: 500;
+	line-height: 24px;
+	color: #0f2656;
+	text-align: left;
+}
+/*--------------------------------- pages end --------------------------------*/
+/*--------------------------------- apps page start --------------------------------*/
+.container .app-h1{
+	margin: 0px 0px 50px 0px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	font-size: 40px;
+	color: blueviolet;
+	text-align: center;
+	background-color: #F8E1F4;
+}
+.inner-feature .btn-1{
+  background-color: #ff6347;
+  border: none;
+  padding: 7px 30%;
+  font-size: 20px;
+  margin: 20px 10px -20px 10px;
+  float: left;
+ 	color: #ffff;
+}
+.inner-feature .btn-1:hover{
+	 background-color: #fdebed;
+	 cursor: pointer;
+	 color: black;
+	 transition: 1s;
+	 border: solid 2px black;
+}
+
+.inner-feature .btn-2{
+  background-color:#5cc9a7 ;
+  border: none;
+  padding: 7px 30%;
+  font-size: 20px;
+  margin: 20px 10px -20px 10px;
+  float: left;
+ 	color: #ffff;
+}
+.inner-feature .btn-2:hover{
+	 background-color:#ebf9f4 ;
+	 cursor: pointer;
+	 color: black;
+	 transition: 1s;
+	 border: solid 2px black;
+}
+.inner-feature .btn-3{
+  background-color: #61beec;
+  border: none;
+  padding: 7px 30%;
+  font-size: 20px;
+  margin: 20px 10px -20px 10px;
+  float: left;
+ 	color: #ffff;
+}
+.inner-feature .btn-3:hover{
+	 background-color: #fff7e8;
+	 cursor: pointer;
+	 color: black;
+	 transition: 1s;
+	 border: solid 2px black;
+}
+/*--------------------------------- apps page end --------------------------------*/
+/*--------------------------------- docs page start --------------------------------*/
+.doc-h2 {
+     text-align: center;
+     margin-top: 40px;
+     padding-bottom: 60px;
+}
+.doc-h2 h2 {
+     font-size: 45px;
+     color: #983ce9;
+     line-height: 40px;
+     font-weight: bold;
+     padding: 0;
+}
+.doc-all {
+     text-align: center;
+}
+.doc-all .doc-img {
+     margin: 0;
+}
+
+.doc-all p {
+     color: #0c0f38;
+     font-size: 17px;
+     line-height: 28px;
+     padding: 40px 50px;
+}
+
+.doc-all a {
+     font-size: 16px;
+     background-color: #983ce9;
+     color: #fff;
+     padding: 10px 0px;
+     width: 100%;
+     max-width: 80%;
+     text-align: center;
+     display: inline-block;
+     text-transform: uppercase;
+     font-weight: 400;
+     margin-bottom: 50px;
+}
+
+.doc-all a:hover {
+     background-color: #0c0f38;
+     color: #fff;
+}
+/*--------------------------------- docs page end --------------------------------*/
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px){
+
+/*home page code start*/
+.container{
+	width: 100%;
+	margin: 0px auto;
+}
+
+.header img{
+	width: 50%;
+	margin-left: 10px;
+}
+.menu li a{
+     float: left;
+	font-size: 6px;
+	text-align: left;
+	margin-left: 3px;
+	padding-right: 5px;
+}
+.online-section .home-h1 {
+    	font-size: 20px;
+    	line-height: 25px;
+}
+.online-section .home-p{
+	font-size: 10px;
+	line-height: 14px;
+	margin: 0px 12px 0px 12px;
+
+}
+.online-section img{
+	width: 70%;
+	margin-top: 20px;
+	margin-bottom:0px;
+}
+.success-section{
+	padding: 0px 0px 30px 0px;
+}
+.success-section .title{
+	font-size: 20px;
+	line-height: 30px;
+	padding-right: 15px;
+}
+.success-section .desc{
+	font-size: 9px;
+	line-height: 20px;
+	margin-top: -10px;
+	margin-bottom: 10px;
+	padding-right: 15px;
+}
+.success-section .right-title{
+	font-size: 20px;
+	line-height: 33px;
+	margin-bottom: 10px;
+	padding-right: 0px;
+}
+.feature-section{
+	width: 100%;
+	padding: 40px 0px 40px;
+}
+.col-4{
+	width: 100%;
+}
+.inner-feature{
+	width: 85%;
+	margin: 0px 10px 30px 10px;
+}
+.inner-feature p{
+	font-size: 13px;
+	line-height: 20px;
+}
+.footer-section p{
+	font-size: 8px;
+}
+.footer-section {
+    float: left;
+    padding: 20px 0px;
+    background: #008aff;
+    text-align: center;
+}
+/*home page code end*/
+/*overview page code start*/
+.online-section .overview-h1{
+	font-size: 25px;
+	line-height: 25px;
+	margin: -40px 13px 10px 13px;
+	text-align: center;
+}
+.online-section .overview-img{ 
+	margin-top: 30px;
+	margin-bottom: 40px;
+	width: 70%;
+	height: 100%;
+}
+.online-section .overview-p{
+	font-size: 10px;
+	font-weight: 500;
+	line-height: 20px;
+	color: #0f2656;
+	text-align: center;
+	margin: 0px 13px 0px 13px;
+}
+/*overview page code end*/
+/*landing page code start*/
+
+.login-form{
+	width: 75%;
+}
+.login-form .landing-h1{
+	font-size: 20px;
+	line-height: 30px;
+}
+.avater-img img{
+	width: 100px;
+	height: 100px;
+	margin-bottom: 15px;
+	margin-top: 5px;	
+}
+.main-form{
+	width: 100%;
+}
+.main-form label{
+	display: block;
+	font-size:12px;
+	margin: 0px 0px 0px;
+}
+.main-form .form-control{
+	width: 96%;
+	padding: 5px;
+	margin: 0px 0px 5px;
+	font-size:10px;
+}
+.main-form .btn{
+	display: block;
+	padding: 10px 50px;
+	font-size:10px;
+	width:100%;
+  	margin:10px auto;
+}
+/*landing page code end*/
+/* pages code start*/
+
+
+.online-section .pages-img{ 
+	margin-top:-40px;
+	margin-bottom: 20px;
+	width: 100%;
+}
+.pages-h1{
+	font-size: 20px;
+	line-height: 30px;
+	margin: 0px 14px 20px 14px;
+}
+
+.online-section .pages-p{
+	font-size: 12px;
+	font-weight: 500;
+	line-height: 20px;
+	color: #0f2656;
+	text-align: left;
+	margin: 0px 14px 0px 14px;
+}
+/* pages code end*/
+
+/*app pages code start*/
+.container .app-h1{
+	margin: 0px 0px 50px 0px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	font-size: 20px;
+}
+.inner-feature .btn-1{
+ 	padding: 10px 40%;
+ 	font-size: 6px;
+ 	margin: 20px 10px -20px 10px;
+ 
+}
+.inner-feature .btn-2{
+  padding: 10px 40%;
+  font-size: 6px;
+  margin: 20px 10px -20px 10px;
+}
+
+.inner-feature .btn-3{
+  padding: 10px 40%;
+  font-size: 6px;
+  margin: 20px 10px -20px 10px;
+}
+/*app pages code end*/
+/*doc pages code start*/
+.doc-h2 {
+     padding-bottom: 40px;
+}
+.doc-h2 h2 {
+     font-size: 25px;
+     line-height: 30px;
+     padding: 0;
+}
+
+.doc-all .doc-img {
+     margin: 0;
+     width: 100%;
+}
+
+.doc-all p {
+     color: #0c0f38;
+     font-size: 13px;
+     line-height: 20px;
+     padding: 20px 30px;
+}
+
+.doc-all a {
+     font-size: 13px;
+     background-color: #983ce9;
+     color: #fff;
+     padding: 10px 0px;
+     width: 100%;
+     max-width: 100%;
+     text-align: center;
+     display: inline-block;
+     text-transform: uppercase;
+     font-weight: 400;
+     margin-bottom: 20px;
+}
+/*doc pages code end*/
+
+}
+/* 
+  ##Device = Low Resolution Tablets, Mobiles 
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+/*home page code start*/
+.container{
+	width: 100%;
+	margin: 0px auto;
+}
+
+.header img{
+	width: 50%;
+	margin-left: 10px;
+}
+.menu li a{
+     float: left;
+	font-size: 6px;
+	text-align: left;
+	margin-left: 3px;
+	padding-right: 5px;
+}
+.online-section .home-h1 {
+    	font-size: 20px;
+    	line-height: 25px;
+}
+.online-section .home-p{
+	font-size: 10px;
+	line-height: 14px;
+	margin: 0px 12px 0px 12px;
+
+}
+.online-section img{
+	width: 70%;
+	margin-top: 20px;
+	margin-bottom:0px;
+}
+.success-section{
+	padding: 0px 0px 30px 0px;
+}
+.success-section .title{
+	font-size: 20px;
+	line-height: 30px;
+	padding-right: 15px;
+}
+.success-section .desc{
+	font-size: 9px;
+	line-height: 20px;
+	margin-top: -10px;
+	margin-bottom: 10px;
+	padding-right: 15px;
+}
+.success-section .right-title{
+	font-size: 20px;
+	line-height: 33px;
+	margin-bottom: 10px;
+	padding-right: 0px;
+}
+.feature-section{
+	width: 100%;
+	padding: 40px 0px 40px;
+}
+.col-4{
+	width: 100%;
+}
+.inner-feature{
+	width: 85%;
+	margin: 0px 0px 30px 20px;
+}
+.inner-feature p{
+	font-size: 13px;
+	line-height: 20px;
+}
+
+
+.footer-section {
+    float: left;
+    padding: 20px 0px;
+    background: #008aff;
+    text-align: center;
+}
+.footer-section p{
+	font-size: 8px;
+}
+
+/*home page code end*/
+/*overview page code start*/
+.online-section .overview-h1{
+	font-size: 25px;
+	line-height: 25px;
+	margin: -40px 13px 10px 13px;
+	text-align: center;
+}
+.online-section .overview-img{ 
+	margin-top: 30px;
+	margin-bottom: 40px;
+	width: 70%;
+	height: 100%;
+}
+.online-section .overview-p{
+	font-size: 10px;
+	font-weight: 500;
+	line-height: 20px;
+	color: #0f2656;
+	text-align: center;
+	margin: 0px 13px 0px 13px;
+}
+/*overview page code end*/
+/*landing page code start*/
+
+.login-form{
+	width: 75%;
+}
+.login-form .landing-h1{
+	font-size: 20px;
+	line-height: 30px;
+}
+.avater-img img{
+	width: 100px;
+	height: 100px;
+	margin-bottom: 15px;
+	margin-top: 5px;	
+}
+.main-form{
+	width: 100%;
+}
+.main-form label{
+	display: block;
+	font-size:12px;
+	margin: 0px 0px 0px;
+}
+.main-form .form-control{
+	width: 96%;
+	padding: 5px;
+	margin: 0px 0px 5px;
+	font-size:10px;
+}
+.main-form .btn{
+	display: block;
+	padding: 10px 50px;
+	font-size:10px;
+	width:100%;
+  	margin:10px auto;
+}
+/*landing page code end*/
+/* pages code start*/
+
+
+.online-section .pages-img{ 
+	margin-top:-40px;
+	margin-bottom: 20px;
+	width: 100%;
+}
+.pages-h1{
+	font-size: 20px;
+	line-height: 30px;
+	margin: 0px 14px 20px 14px;
+}
+
+.online-section .pages-p{
+	font-size: 12px;
+	font-weight: 500;
+	line-height: 20px;
+	color: #0f2656;
+	text-align: left;
+	margin: 0px 14px 0px 14px;
+}
+/* pages code end*/
+
+/*app pages code start*/
+.container .app-h1{
+	margin: 0px 0px 50px 0px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	font-size: 20px;
+}
+.inner-feature .btn-1{
+ 	padding: 7px 40%;
+ 	font-size: 10px;
+ 	margin: 20px 10px -20px 10px;
+ 
+}
+.inner-feature .btn-2{
+  padding: 7px 40%;
+  font-size: 10px;
+  margin: 20px 10px -20px 10px;
+}
+
+.inner-feature .btn-3{
+  padding: 7px 40%;
+  font-size: 10px;
+  margin: 20px 10px -20px 10px;
+}
+/*app pages code end*/
+/*doc pages code start*/
+.doc-h2 {
+     padding-bottom: 40px;
+}
+.doc-h2 h2 {
+     font-size: 25px;
+     line-height: 30px;
+     padding: 0;
+}
+
+.doc-all .doc-img {
+     margin: 0;
+     width: 100%;
+}
+
+.doc-all p {
+     color: #0c0f38;
+     font-size: 13px;
+     line-height: 20px;
+     padding: 20px 30px;
+}
+
+.doc-all a {
+     font-size: 13px;
+     background-color: #983ce9;
+     color: #fff;
+     padding: 10px 0px;
+     width: 100%;
+     max-width: 100%;
+     text-align: center;
+     display: inline-block;
+     text-transform: uppercase;
+     font-weight: 400;
+     margin-bottom: 20px;
+}
+/*doc pages code end*/
+}
+
+/* 
+  ##Device = Tablets, Ipads 
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+/*home page code start*/
+.container{
+	width: 100%;
+}
+.col-6{
+	width: 50%;
+
+}
+.header img{
+	width: 30%;
+	margin-left: 10px;
+}
+.menu {
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+.menu li a{
+     float: left;
+	font-size: 13px;
+	text-align: left;
+	margin-left: 10px;
+	padding-right: 9px;
+}
+.online-section .home-h1 {
+    font-size: 50px;
+    line-height: 55px;
+}
+.online-section .home-p{
+	font-size: 13px;
+	line-height: 14px;
+	margin: 0px 12px 0px 12px;
+
+}
+.online-section img {
+    width: 60%;
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+.success-section{
+	padding: 0px 10px 20px 10px;
+}
+.success-section .title{
+	font-size: 30px;
+	line-height: 40px;
+	padding-right: 15px;
+}
+.success-section .desc{
+	font-size: 13px;
+	line-height: 20px;
+	margin-top: -10px;
+	margin-bottom: 10px;
+	padding-right: 15px;
+}
+.success-section .right-title{
+	font-size: 30px;
+	line-height: 40px;
+	margin-bottom: 10px;
+	padding-right: 0px;
+}
+.feature-section{
+	width: 100%;
+	padding: 40px 10px 40px 0px;
+}
+.col-4{
+	width: 33.33%;
+}
+.inner-feature {
+    width: 86%;
+    margin: 0px 0px 30px 35px;
+    padding-right: 0px;
+}
+.inner-feature p{
+	font-size: 13px;
+	line-height: 20px;
+}
+.inner-feature h4 {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 30px;
+    color: #0f2656;
+    margin-bottom: 5px;
+}
+.inner-feature img{
+	width: 100%;
+	height: 180px;
+	margin-bottom: 10px;
+	margin-left: 0px;
+}
+.col-12{
+	width: 100%;
+	float: left;
+}
+.footer-section {
+    float: left;
+    padding: 20px 0px;
+    background: #008aff;
+    text-align: center;
+}
+.footer-section p{
+	font-size: 12px;
+	font-weight: 400;
+	color: #9fccff;
+}
+.footer-section p a{
+	text-transform: uppercase;
+	color: #fff;
+	font-weight: 700;
+	letter-spacing: 3px;
+}
+.footer-section p a:hover{
+	color: #0f2656;
+}
+/*home page code end*/
+/*overview page code start*/
+.online-section .overview-h1{
+	font-size: 25px;
+	line-height: 25px;
+	margin: -40px 13px 10px 13px;
+	text-align: center;
+}
+.online-section .overview-img{ 
+	margin-top: 30px;
+	margin-bottom: 40px;
+	width: 70%;
+	height: 100%;
+}
+.online-section .overview-p{
+	font-size: 10px;
+	font-weight: 500;
+	line-height: 20px;
+	color: #0f2656;
+	text-align: center;
+	margin: 0px 13px 0px 13px;
+}
+/*overview page code end*/
+/*landing page code start*/
+
+.login-form{
+	width: 75%;
+}
+.login-form .landing-h1{
+	font-size: 20px;
+	line-height: 30px;
+}
+.avater-img img{
+	width: 100px;
+	height: 100px;
+	margin-bottom: 15px;
+	margin-top: 5px;	
+}
+.main-form{
+	width: 100%;
+}
+.main-form label{
+	display: block;
+	font-size:12px;
+	margin: 0px 0px 0px;
+}
+.main-form .form-control{
+	width: 96%;
+	padding: 5px;
+	margin: 0px 0px 5px;
+	font-size:10px;
+}
+.main-form .btn{
+	display: block;
+	padding: 10px 50px;
+	font-size:10px;
+	width:100%;
+  	margin:10px auto;
+}
+/*landing page code end*/
+/* pages code start*/
+
+
+.online-section .pages-img{ 
+	margin-top:-40px;
+	margin-bottom: 20px;
+	width: 100%;
+}
+.pages-h1{
+	font-size: 20px;
+	line-height: 30px;
+	margin: 0px 14px 20px 14px;
+}
+
+.online-section .pages-p{
+	font-size: 12px;
+	font-weight: 500;
+	line-height: 20px;
+	color: #0f2656;
+	text-align: left;
+	margin: 0px 14px 0px 14px;
+}
+/* pages code end*/
+
+/*app pages code start*/
+.container .app-h1{
+	margin: 0px 0px 50px 0px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	font-size: 20px;
+}
+.col-4{
+	width: 33.33%;
+}
+.inner-feature {
+    width: 86%;
+    margin: 0px 20px 30px 35px;
+    padding-right: 0px;
+}
+.inner-feature h4 {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 30px;
+    color: #0f2656;
+    margin: 0px 50px 5px 50px;
+    text-align: center;
+}
+.inner-feature p {
+    font-size: 13px;
+    line-height: 20px;
+    margin: 0px 50px 0px 50px;
+    text-align: center;
+}
+.inner-feature .btn-1 {
+     padding: 7px 30%;
+    font-size: 13px;
+    margin: 20px 0px -20px 10px;
+    text-align: center;
+}
+.inner-feature .btn-2 {
+        padding: 7px 30%;
+    font-size: 13px;
+    margin: 20px 0px -20px 10px;
+    text-align: center;
+}
+.inner-feature .btn-3{
+        padding: 7px 30%;
+    font-size: 13px;
+    margin: 20px 0px -20px 10px;
+    text-align: center;
+}
+/*app pages code end*/
+/*doc pages code start*/
+.doc-h2 {
+     padding-bottom: 40px;
+}
+.doc-h2 h2 {
+     font-size: 25px;
+     line-height: 30px;
+     padding: 0;
+}
+
+.doc-all .doc-img {
+     margin: 0;
+     width: 100%;
+}
+
+.doc-all p {
+     color: #0c0f38;
+     font-size: 13px;
+     line-height: 20px;
+     padding: 20px 30px;
+}
+
+.doc-all a {
+     font-size: 13px;
+     background-color: #983ce9;
+     color: #fff;
+     padding: 10px 0px;
+     width: 100%;
+     max-width: 100%;
+     text-align: center;
+     display: inline-block;
+     text-transform: uppercase;
+     font-weight: 400;
+     margin-bottom: 20px;
+}
+/*doc pages code end*/
+}
